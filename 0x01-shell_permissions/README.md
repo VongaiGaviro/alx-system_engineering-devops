@@ -23,7 +23,7 @@ chmod 753 hello script that sets the mode of the file hello to this:-rwxr-x-wx 1
 
 chmod --reference=olleh hello script that sets the mode of the file hello the same as olleh’s mode.
 
-chmod ugo+x ./* script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+chmod ugo+X ./* script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 
 mkdir -m 751 my_dir script that creates a directory called my_dir with permissions 751 in the working directory
 
