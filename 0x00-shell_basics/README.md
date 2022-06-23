@@ -9,4 +9,5 @@ mv /tmp/betty /tmp/my_first_directory script that Move the file betty from /tmp/
 rm /tmp/my_first_directory/betty script that Delete the file betty
 rmdir /temp/my_first_directory script that Move the file betty from /tmp/ to /tmp/my_first_directory
 cd - script that changes the working directory to the previous one
-ls -la . .. /boot script that ists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format
+ls -la . .. /boot script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format
+file /tmp/iamafile script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
